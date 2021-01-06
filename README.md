@@ -3,6 +3,7 @@
 ## Summary
 
 1. On the `sql` folder, you can see the BigQuery SQL that transformed the given tables based on the business problem.
+    - There is not DDL `CREATE TABLE` function in BigQuery, this is why there is no load method as requested on the task
 2. On the `python_etl` folder, you can find the `salary_per_hour.py` ETL script designed based on the business problem.
 3. On the `result` folder, you can find the ETL transformation results in CSV format from both SQL and python_etl.
 
