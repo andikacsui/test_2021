@@ -10,7 +10,7 @@
 
 - Python 3 installation is needed, along with the pip-install for all the libraries in the `requirements.txt`
 - To run the script, go to the python_etl directory, and write this command on the  line:
-  python salary_per_hour.py <employees csv location> <timesheets csv location> <running date YYYY-MM-DD>.
+  python salary_per_hour.py (employees csv location) (timesheets csv location) (running date YYYY-MM-DD).
   
   example:
   ```python
