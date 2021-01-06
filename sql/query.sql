@@ -1,3 +1,5 @@
+CREATE TABLE IF NOT EXISTS `andika-coba.mekari.salary_per_hour_sql` AS
+
 WITH distincted_employees AS (
   SELECT
     employee_id,
