@@ -2,7 +2,7 @@
 
 ## Summary
 
-1. On the `sql` folder, you can see the BigQery SQL that transformed the given tables based on the business problem.
+1. On the `sql` folder, you can see the BigQuery SQL that transformed the given tables based on the business problem.
 2. On the `python_etl` folder, you can find the `salary_per_hour.py` ETL script designed based on the business problem.
 3. On the `result` folder, you can find the ETL transformation results in CSV format from both SQL and python_etl.
 
