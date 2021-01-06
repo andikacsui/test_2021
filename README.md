@@ -25,5 +25,5 @@ Both the runtime results from SQL and Python are identically the same, as the ap
 
 - For calculation rules: (total salary of all employees/total work hour of all employees), all is calculated based on the running month data
 - Code parameterization: The scheduler/orchestrator can define the raw data location and running date when executing the script
-- Idempotent: Multiple runs of the script for the same date will result the same in the end, as the existing results ot the running month will be overwritten if it already exists
+- Idempotent: Multiple runs of the script for the same date will result the same in the end, as the existing results of the running month on the table will be overwritten if it already exists
 - Deterministic: No random or unexact operation on the script. The result will be the same for multiple runtimes
